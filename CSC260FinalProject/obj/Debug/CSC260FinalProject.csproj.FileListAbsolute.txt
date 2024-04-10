@@ -1,0 +1,11 @@
+C:\Users\Dylan\source\repos\CSC260FinalProject\bin\Debug\CSC260FinalProject.exe.config
+C:\Users\Dylan\source\repos\CSC260FinalProject\bin\Debug\CSC260FinalProject.exe
+C:\Users\Dylan\source\repos\CSC260FinalProject\bin\Debug\CSC260FinalProject.pdb
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.csproj.AssemblyReference.cache
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.JeopardyAboutMenu.resources
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.JepordyInterface.resources
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.Properties.Resources.resources
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.csproj.GenerateResource.cache
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.exe
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.pdb
