@@ -169,6 +169,7 @@
             this.c2q5.TabIndex = 42;
             this.c2q5.Text = "$500";
             this.c2q5.UseVisualStyleBackColor = false;
+            this.c2q5.Click += new System.EventHandler(this.c2q5_Click);
             // 
             // c2q4
             // 
@@ -182,6 +183,7 @@
             this.c2q4.TabIndex = 41;
             this.c2q4.Text = "$400";
             this.c2q4.UseVisualStyleBackColor = false;
+            this.c2q4.Click += new System.EventHandler(this.c2q4_Click);
             // 
             // c2q3
             // 
@@ -195,6 +197,7 @@
             this.c2q3.TabIndex = 40;
             this.c2q3.Text = "$300";
             this.c2q3.UseVisualStyleBackColor = false;
+            this.c2q3.Click += new System.EventHandler(this.c2q3_Click);
             // 
             // c2q2
             // 
@@ -208,6 +211,7 @@
             this.c2q2.TabIndex = 39;
             this.c2q2.Text = "$200";
             this.c2q2.UseVisualStyleBackColor = false;
+            this.c2q2.Click += new System.EventHandler(this.c2q2_Click);
             // 
             // c2q1
             // 
@@ -221,6 +225,7 @@
             this.c2q1.TabIndex = 38;
             this.c2q1.Text = "$100";
             this.c2q1.UseVisualStyleBackColor = false;
+            this.c2q1.Click += new System.EventHandler(this.c2q1_Click);
             // 
             // c3q5
             // 
