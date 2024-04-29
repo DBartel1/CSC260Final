@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Category_Selection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category_Selection.Designer.cs">
+      <DependentUpon>Category_Selection.cs</DependentUpon>
+    </Compile>
     <Compile Include="JeopardyAboutMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Category_Selection.resx">
+      <DependentUpon>Category_Selection.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="JeopardyAboutMenu.resx">
       <DependentUpon>JeopardyAboutMenu.cs</DependentUpon>
     </EmbeddedResource>

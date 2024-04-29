@@ -34,6 +34,7 @@
             this.mainmenutext = new System.Windows.Forms.Label();
             this.closegame_btn = new System.Windows.Forms.Button();
             this.closeapplication_btn = new System.Windows.Forms.Button();
+            this.category_selection_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // play_btn
@@ -53,7 +54,7 @@
             // 
             this.rules_btn.BackColor = System.Drawing.Color.Silver;
             this.rules_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rules_btn.Location = new System.Drawing.Point(492, 546);
+            this.rules_btn.Location = new System.Drawing.Point(490, 395);
             this.rules_btn.Name = "rules_btn";
             this.rules_btn.Size = new System.Drawing.Size(237, 100);
             this.rules_btn.TabIndex = 1;
@@ -65,7 +66,7 @@
             // 
             this.About.BackColor = System.Drawing.Color.Silver;
             this.About.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.About.Location = new System.Drawing.Point(492, 395);
+            this.About.Location = new System.Drawing.Point(733, 394);
             this.About.Name = "About";
             this.About.Size = new System.Drawing.Size(237, 102);
             this.About.TabIndex = 2;
@@ -104,6 +105,18 @@
             this.closeapplication_btn.UseVisualStyleBackColor = false;
             this.closeapplication_btn.Click += new System.EventHandler(this.closeapplication_btn_Click);
             // 
+            // category_selection_btn
+            // 
+            this.category_selection_btn.BackColor = System.Drawing.Color.Silver;
+            this.category_selection_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.category_selection_btn.Location = new System.Drawing.Point(247, 394);
+            this.category_selection_btn.Name = "category_selection_btn";
+            this.category_selection_btn.Size = new System.Drawing.Size(237, 100);
+            this.category_selection_btn.TabIndex = 5;
+            this.category_selection_btn.Text = "Category Selection";
+            this.category_selection_btn.UseVisualStyleBackColor = false;
+            this.category_selection_btn.Click += new System.EventHandler(this.category_selection_btn_Click);
+            // 
             // JepordyInterface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -111,6 +124,7 @@
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.BackgroundImage = global::CSC260FinalProject.Properties.Resources.jeopardy_board_1596958685;
             this.ClientSize = new System.Drawing.Size(1184, 731);
+            this.Controls.Add(this.category_selection_btn);
             this.Controls.Add(this.closeapplication_btn);
             this.Controls.Add(this.closegame_btn);
             this.Controls.Add(this.play_btn);
@@ -133,6 +147,7 @@
         private System.Windows.Forms.Label mainmenutext;
         private System.Windows.Forms.Button closegame_btn;
         private System.Windows.Forms.Button closeapplication_btn;
+        private System.Windows.Forms.Button category_selection_btn;
     }
 }
 
