@@ -239,6 +239,7 @@
             this.c3q5.TabIndex = 47;
             this.c3q5.Text = "$500";
             this.c3q5.UseVisualStyleBackColor = false;
+            this.c3q5.Click += new System.EventHandler(this.c3q5_Click);
             // 
             // c3q4
             // 
@@ -252,6 +253,7 @@
             this.c3q4.TabIndex = 46;
             this.c3q4.Text = "$400";
             this.c3q4.UseVisualStyleBackColor = false;
+            this.c3q4.Click += new System.EventHandler(this.c3q4_Click);
             // 
             // c3q3
             // 
@@ -265,6 +267,7 @@
             this.c3q3.TabIndex = 45;
             this.c3q3.Text = "$300";
             this.c3q3.UseVisualStyleBackColor = false;
+            this.c3q3.Click += new System.EventHandler(this.c3q3_Click);
             // 
             // c3q2
             // 
@@ -278,6 +281,7 @@
             this.c3q2.TabIndex = 44;
             this.c3q2.Text = "$200";
             this.c3q2.UseVisualStyleBackColor = false;
+            this.c3q2.Click += new System.EventHandler(this.c3q2_Click);
             // 
             // c3q1
             // 
@@ -291,6 +295,7 @@
             this.c3q1.TabIndex = 43;
             this.c3q1.Text = "$100";
             this.c3q1.UseVisualStyleBackColor = false;
+            this.c3q1.Click += new System.EventHandler(this.c3q1_Click);
             // 
             // c4q5
             // 
@@ -304,6 +309,7 @@
             this.c4q5.TabIndex = 52;
             this.c4q5.Text = "$500";
             this.c4q5.UseVisualStyleBackColor = false;
+            this.c4q5.Click += new System.EventHandler(this.c4q5_Click);
             // 
             // c4q4
             // 
@@ -317,6 +323,7 @@
             this.c4q4.TabIndex = 51;
             this.c4q4.Text = "$400";
             this.c4q4.UseVisualStyleBackColor = false;
+            this.c4q4.Click += new System.EventHandler(this.c4q4_Click);
             // 
             // c4q3
             // 
@@ -330,6 +337,7 @@
             this.c4q3.TabIndex = 50;
             this.c4q3.Text = "$300";
             this.c4q3.UseVisualStyleBackColor = false;
+            this.c4q3.Click += new System.EventHandler(this.c4q3_Click);
             // 
             // c4q2
             // 
@@ -343,6 +351,7 @@
             this.c4q2.TabIndex = 49;
             this.c4q2.Text = "$200";
             this.c4q2.UseVisualStyleBackColor = false;
+            this.c4q2.Click += new System.EventHandler(this.c4q2_Click);
             // 
             // c4q1
             // 
@@ -356,6 +365,7 @@
             this.c4q1.TabIndex = 48;
             this.c4q1.Text = "$100";
             this.c4q1.UseVisualStyleBackColor = false;
+            this.c4q1.Click += new System.EventHandler(this.c4q1_Click);
             // 
             // c5q5
             // 
@@ -369,6 +379,7 @@
             this.c5q5.TabIndex = 57;
             this.c5q5.Text = "$500";
             this.c5q5.UseVisualStyleBackColor = false;
+            this.c5q5.Click += new System.EventHandler(this.c5q5_Click);
             // 
             // c5q4
             // 
@@ -382,6 +393,7 @@
             this.c5q4.TabIndex = 56;
             this.c5q4.Text = "$400";
             this.c5q4.UseVisualStyleBackColor = false;
+            this.c5q4.Click += new System.EventHandler(this.c5q4_Click);
             // 
             // c5q3
             // 
@@ -395,6 +407,7 @@
             this.c5q3.TabIndex = 55;
             this.c5q3.Text = "$300";
             this.c5q3.UseVisualStyleBackColor = false;
+            this.c5q3.Click += new System.EventHandler(this.c5q3_Click);
             // 
             // c5q2
             // 
@@ -408,6 +421,7 @@
             this.c5q2.TabIndex = 54;
             this.c5q2.Text = "$200";
             this.c5q2.UseVisualStyleBackColor = false;
+            this.c5q2.Click += new System.EventHandler(this.c5q2_Click);
             // 
             // c5q1
             // 
@@ -421,6 +435,7 @@
             this.c5q1.TabIndex = 53;
             this.c5q1.Text = "$100";
             this.c5q1.UseVisualStyleBackColor = false;
+            this.c5q1.Click += new System.EventHandler(this.c5q1_Click);
             // 
             // c6q5
             // 
@@ -434,6 +449,7 @@
             this.c6q5.TabIndex = 62;
             this.c6q5.Text = "$500";
             this.c6q5.UseVisualStyleBackColor = false;
+            this.c6q5.Click += new System.EventHandler(this.c6q5_Click);
             // 
             // c6q4
             // 
@@ -447,6 +463,7 @@
             this.c6q4.TabIndex = 61;
             this.c6q4.Text = "$400";
             this.c6q4.UseVisualStyleBackColor = false;
+            this.c6q4.Click += new System.EventHandler(this.c6q4_Click);
             // 
             // c6q3
             // 
@@ -460,6 +477,7 @@
             this.c6q3.TabIndex = 60;
             this.c6q3.Text = "$300";
             this.c6q3.UseVisualStyleBackColor = false;
+            this.c6q3.Click += new System.EventHandler(this.c6q3_Click);
             // 
             // c6q2
             // 
@@ -473,6 +491,7 @@
             this.c6q2.TabIndex = 59;
             this.c6q2.Text = "$200";
             this.c6q2.UseVisualStyleBackColor = false;
+            this.c6q2.Click += new System.EventHandler(this.c6q2_Click);
             // 
             // c6q1
             // 
@@ -486,10 +505,11 @@
             this.c6q1.TabIndex = 58;
             this.c6q1.Text = "$100";
             this.c6q1.UseVisualStyleBackColor = false;
+            this.c6q1.Click += new System.EventHandler(this.c6q1_Click);
             // 
             // questionDisplay
             // 
-            this.questionDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.questionDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.questionDisplay.Location = new System.Drawing.Point(202, 598);
             this.questionDisplay.Name = "questionDisplay";
             this.questionDisplay.Size = new System.Drawing.Size(798, 51);

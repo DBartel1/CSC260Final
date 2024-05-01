@@ -9,5 +9,5 @@ C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.cspr
 C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.csproj.CoreCompileInputs.cache
 C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.exe
 C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.pdb
-C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.Category_Selection.resources
 C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.JeopardyGameScreen.resources
+C:\Users\Dylan\source\repos\CSC260FinalProject\obj\Debug\CSC260FinalProject.JeopardyRulesMenu.resources

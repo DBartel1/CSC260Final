@@ -20,9 +20,8 @@ namespace CSC260FinalProject
         }
         private static JeopardyAboutMenu _jeopardyaboutmenu = new JeopardyAboutMenu();
         private static JeopardyGameScreen _jeopardygamescreen = new JeopardyGameScreen();
-        private static Category_Selection _category_Selection = new Category_Selection();
-
-        public static JeopardyAboutMenu jeopardyaboutmenu
+        private static JeopardyRulesMenu _jeopardyrulesmenu = new JeopardyRulesMenu();
+         static JeopardyAboutMenu jeopardyaboutmenu
         {
             get { return _jeopardyaboutmenu; }
         }
@@ -30,14 +29,16 @@ namespace CSC260FinalProject
         {
             get { return _jeopardygamescreen; }
         }
-        public static Category_Selection category_Selection
-        {
-            get { return _category_Selection; }
-        }
         public static JepordyInterface jeopardymainmenu
         {
             get { return jeopardymainmenu; }
         }
+        public static JeopardyRulesMenu jeopardyrulesmenu
+        {
+            get { return _jeopardyrulesmenu; }
+        }
+
+
 
         #endregion
 
@@ -54,7 +55,8 @@ namespace CSC260FinalProject
         }
         private void rules_btn_Click(object sender, EventArgs e)
         {
-
+            jeopardyrulesmenu.Show();
+            this.Hide();
         }
         private void About_Click(object sender, EventArgs e)
         {
@@ -68,11 +70,6 @@ namespace CSC260FinalProject
             Application.Exit();
         }
 
-        private void category_selection_btn_Click(object sender, EventArgs e)
-        {
-            category_Selection.Show();
-            this.Hide();
-        }
 
         //OtherMethods
 
